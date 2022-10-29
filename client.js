@@ -60,3 +60,15 @@ function calculateIndividualEmployeeBonus( staffMember ) {
   // return new object with bonus results
 
 console.log(calculateIndividualEmployeeBonus());
+
+// rating of 2 percent or below
+function doYouGetBonus(employee){
+for(employee of employees){
+  let employees = [];
+  if(employees.reviewRating < 2){
+    return `you get no bonus!`
+  }
+} console.log(employee);
+} // End of doYouGetBonus function
+
+console.log('people with no bonus',doYouGetBonus());
