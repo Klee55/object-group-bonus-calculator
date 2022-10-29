@@ -34,7 +34,6 @@ const employees = [
 
 console.log('array of employee data: ',  employees );
 
-
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 // This problem is massive! Break the problem down, take small steps, and test as you go.
@@ -48,10 +47,16 @@ console.log('array of employee data: ',  employees );
 
 // This function will calculate 1 employee's bonus!
 //
-function calculateIndividualEmployeeBonus( employee ) {  
-  // your logic here
-  
+let newEmployees = new Map([
+  ['bonusPercentage', 54]
+])
+console.log(newEmployees)
+function calculateIndividualEmployeeBonus( staffMember ) {  
+  for (let i = 0; i < employees.length; i++) {
+    console.log(employees[i])
+    }
+  }
   
   // return new object with bonus results
 
-}
+console.log(calculateIndividualEmployeeBonus());
